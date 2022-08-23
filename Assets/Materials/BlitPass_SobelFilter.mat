@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: BlitPass_SobelFilter
+  m_Shader: {fileID: 4800000, guid: d13740e3c38757c458a3dd149e2bcf1b, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NoiseTexture:
+        m_Texture: {fileID: 2800000, guid: 9ff238cd6c83c694c8ea5015c99c2456, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _Delta: 0.000591
+    - _DepthLineIntensity: 0.098
+    - _NoiseStrenght: 0.003
+    - _OpaqueLineIntensity: 0.39
+    - _Poseterize: 0
+    - _PosterizationCount: 8
+    - _Raw: 0
+    m_Colors:
+    - _DepthRemapValues: {r: 0, g: 0.00016666, b: 0, a: 1}
+    - _OpaqueRemapValues: {r: 0, g: 0.79, b: 0, a: 1}
+  m_BuildTextureStacks: []
